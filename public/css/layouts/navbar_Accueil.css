@@ -1,0 +1,26 @@
+.navbar{
+    background: #852747;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+li 
+{
+  list-style-type: none;
+} 
+#navbarDropdown{
+  color: rgba(255,255,255,.55);
+}
+.main
+{
+   margin-top: 100px;  
+}
+
+
+
+
+

@@ -1,0 +1,354 @@
+:root {
+    --color-white: #fff;
+    --color-light: #f5f5f5;
+    --color-black: #131316;
+    --color-gray-light: #a7a4af;
+    --color-gray-dark: #717177;
+    --color-dark: #393a44;
+    --color-blue: #97a5b4;
+    --color-blue-light: rgba(68, 143, 143, 0.5);
+    --color-orange-light: rgba(179, 51, 5, 0.5);
+    --color-pink-light: rgba(172, 13, 129, 0.5);
+    --color-purple-light: rgba(134, 2, 134, 0.5);
+    --color-bk-blue-light: rgba(93, 191, 191, 0.2);
+    --color-bk-orange-light: rgba(230, 72, 14, 0.2);
+    --color-bk-pink-light: rgba(230, 14, 172, 0.2);
+    --color-bk-purple-light: rgba(134, 6, 167, 0.2);
+    --color-sky-blue: #63b4f4;
+    --color-h1: #4e8ec0;
+    --invert0: 0;
+}
+
+.dark-theme {
+    --color-white: #131316;
+    --color-light: #23232a;
+    --color-gray-dark: #adacb5;
+    --color-black: #fff;
+    --color-dark: #ddd;
+    --color-blue: #edeef8;
+    --color-blue-light: rgba(154, 236, 236);
+    --color-orange-light: rgb(185, 132, 113);
+    --color-pink-light: rgb(167, 102, 149);
+    --color-purple-light: rgb(130, 100, 136);
+    --invert0: 1;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--color-white);
+}
+
+
+/*main*/
+
+.main {
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    background: var(--color-light);
+    margin-top: 20px;
+}
+
+
+/*ajouter un client*/
+
+.tables form {
+    width: 500px;
+    align-items: self-start;
+    padding: 0 20px 20px 20px;
+    z-index: 1;
+}
+
+.ajout1 {
+    min-height: 600px;
+    background: var( --color-light);
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    margin-right: -3000px;
+    margin-top: 50px;
+    margin-left: 220px;
+    width: 1010px;
+}
+
+.tables table tr td {
+    color: var( --color-black);
+}
+
+table {
+    width: 100%;
+}
+
+.champ {
+    position: relative;
+    min-width: 370px;
+    max-width: 80%;
+}
+
+#service,
+#db {
+    display: none;
+}
+
+.champ input,
+select {
+    width: 85%;
+    height: 40px;
+    padding: 0 15px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background: var(--color-white);
+    border: #070002 solid 1px;
+}
+
+select {
+    color: var(--color-black);
+}
+
+.champ i {
+    position: absolute;
+    cursor: pointer;
+    right: 78px;
+    top: 10px;
+}
+
+.ajout1 h2 {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+#emp {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.infoemp {
+    color: #852747;
+    font-size: 22px;
+}
+
+.champ #dt {
+    color: var(--color-black);
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(var(--invert0));
+}
+
+
+/* .place1{
+  margin-left: -200px;
+
+}   */
+
+.ajout1 .line1 {
+    width: 175px;
+    font-size: 16px;
+    margin-right: -67px;
+    margin-left: -14px;
+}
+
+.ajout1 .line2 {
+    width: 170px;
+    margin-left: -2px;
+    font-size: 16px;
+    margin-right: -90px;
+}
+
+.nom {
+    margin-left: -500px;
+}
+
+.line {
+    height: 55px;
+}
+
+
+/**style de boutons**/
+
+.button-82-pushable {
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-82-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: hsl(0deg 0% 0% / 0.25);
+    will-change: transform;
+    transform: translateY(2px);
+    transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+
+.button-82-edgec {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient( to left, #095f51(340deg 100% 16%) 0%, #32bea6(340deg 100% 32%) 8%, #32bea6(340deg 100% 32%) 92%, #095f51(340deg 100% 16%) 100%);
+}
+
+.button-82-edgea {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient( to left, #a81625(340deg 100% 16%) 0%, #ed5564(340deg 100% 32%) 8%, #ed5564(340deg 100% 32%) 92%, #a81625(340deg 100% 16%) 100%);
+}
+
+.button-82-frontc {
+    display: block;
+    position: relative;
+    padding: 12px 27px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background: #32bea6;
+    will-change: transform;
+    transform: translateY(-4px);
+    transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+
+.button-82-fronta {
+    display: block;
+    position: relative;
+    padding: 12px 27px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background: #ed5564;
+    will-change: transform;
+    transform: translateY(-4px);
+    transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+
+#btnc {
+    margin-left: 674px;
+    margin-top: 25px;
+    margin-right: -50px;
+}
+
+#btna {
+    margin-left: 80px;
+    margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+    .button-82-front {
+        font-size: 1.25rem;
+        padding: 12px 42px;
+    }
+}
+
+.button-82-pushable:hover {
+    filter: brightness(110%);
+}
+
+.button-82-pushable:hover .button-82-front {
+    transform: translateY(-6px);
+    transition: transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+}
+
+.button-82-pushable:hover .button-82-shadow {
+    transform: translateY(4px);
+    transition: transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+}
+
+.button-82-pushable:focus:not(:focus-visible) {
+    outline: none;
+}
+
+.fa-user-plus {
+    font-size: 20px;
+    color: white;
+}
+
+
+/*** style bouton diplome**/
+
+
+/* CSS */
+
+.button-22 {
+    align-items: center;
+    /* appearance: button; */
+    /* background-color: #852747; */
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: #7c2441;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    display: flex;
+    font-size: 100%;
+    line-height: 1.15;
+    margin-left: -45px;
+    margin-top: -5px;
+    padding: 10px 21px;
+    text-align: center;
+    text-transform: none;
+    width: 218px;
+    text-decoration: none;
+    /* transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out; */
+}
+
+
+/* .button-22:active {
+  background-color: #7c2441;
+}*/
+
+.button-22:hover {
+    color: #6b1d37;
+    text-decoration: underline;
+}
+
+#linebtn {
+    width: 195px;
+}
+
+#infopro {
+    margin-top: 15px;
+}
+
+#champ1 {
+    margin-left: -655px;
+    margin-top: -1px;
+}
+
+#dir {
+    margin-right: 20px;
+}

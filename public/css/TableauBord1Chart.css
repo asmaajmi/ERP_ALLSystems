@@ -1,0 +1,152 @@
+:root {
+    --color-white: #fff;
+    --color-light: #f5f5f5;
+    --color-black: #131316;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: var(--color-light);
+}
+
+.TableauBord {
+    min-height: 80px;
+    background: var( --color-light);
+    padding: 20px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 170px;
+    width: 1030px;
+}
+
+.PonctualitePersMens {
+    min-height: 80px;
+    background: var( --color-light);
+    padding: 20px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 170px;
+    width: 1030px;
+}
+
+.Probabilite {
+    min-height: 80px;
+    background: var( --color-light);
+    padding: 20px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    margin-top: 8px;
+    margin-bottom: 20px;
+    margin-left: 170px;
+    width: 1030px;
+}
+
+.input_select {
+    margin-left: 90px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+}
+.input_selectJourna{
+    margin-left: 90px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+}
+
+.titrePonctper {
+    font-size: 38px;
+    margin-left: 25px;
+}
+
+.titrePonctperPars {
+    font-size: 32px;
+    margin-left: 50px;
+    color: #852747;
+}
+
+.titrePonctperMens,
+.titreProbMens {
+    font-size: 32px;
+    margin-left: 150px;
+    color: #852747;
+}
+
+.titreProbJour {
+    font-size: 32px;
+    margin-left: 130px;
+    color: #852747;
+}
+
+.titreTableauBord {
+    font-size: 38px;
+    margin-left: 280px;
+    font-weight: bold;
+}
+
+.champPonctualitePer select {
+    width: 80%;
+    height: 40px;
+    padding: 0 15px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background: var(--color-white);
+    border: #070002 solid 1px;
+    margin-bottom: 20px;
+}
+.champPonctualiteJournaliere select {
+    width: 60%;
+    height: 40px;
+    padding: 0 15px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background: var(--color-white);
+    border: #070002 solid 1px;
+    margin-bottom: 20px;
+}
+#emp {
+    font-weight: bold;
+    font-size: 38px;
+}
+
+#emp_moy {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.chartcontainer {
+    margin-left: 170px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.rowchart {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.chart {
+    width: 495px;
+    height: 400px;
+    background: var(--color-light);
+    padding: 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    margin-bottom: -20px;
+}
+
+.canv {
+    width: 420px;
+    margin-top: 25px;
+    margin-left: 15px;
+}

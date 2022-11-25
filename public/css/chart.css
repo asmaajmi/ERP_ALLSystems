@@ -1,0 +1,16 @@
+.rowchart {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid: 20px;
+}
+
+.chart {
+    width: 520px;
+    height: 320px;
+}
+
+.canv {
+    width: 420px;
+    margin-left: -360px;
+    margin-top: 35px;
+}

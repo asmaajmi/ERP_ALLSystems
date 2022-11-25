@@ -1,0 +1,559 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+body {
+    font-family: "Inter", sans-serif;
+}
+
+
+/*cards*/
+
+.cards {
+    margin-top: -50px;
+    width: 100%;
+    padding: 35px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    /* margin-left: 13px; */
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    grid: 5px;
+    padding: 10px;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    height: 120px;
+}
+
+.number {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.card-name {
+    font-weight: 600;
+}
+
+.icon-box i {
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+#c1 {
+    background: linear-gradient(#852747, #eec6d4);
+    color: white;
+}
+
+#c3 {
+    background: linear-gradient(#852747, #eec6d4);
+    color: white;
+}
+
+#c2 {
+    background: linear-gradient(#852747, #eec6d4);
+    color: white;
+}
+
+
+/*crud pointage a effectue*/
+
+.crudpointaeff {
+    margin-left: 161px;
+    width: 100%;
+}
+
+
+/*crud pointage effectué*/
+
+.crudpoineff {
+    margin-left: 161px;
+    width: 100%;
+}
+
+.crudcons{
+    margin-left: 161px;
+    width: 100%;
+}
+.tableoutil {
+    width: 50%;
+    margin-left: 250px;
+}
+
+.tabProduitAchet {
+    width: 50%;
+}
+
+.deloutil {
+    margin-top: 30px;
+    margin-left: -76px;
+}
+
+
+/*crud employe*/
+
+.crudemp {
+    margin-left: 223px;
+    margin-top: 56px;
+    width: 100%;
+}
+
+.colmach {
+    margin-left: 315px;
+}
+
+.colemp {
+    margin-left: 325px;
+}
+
+
+/*titre de la liste*/
+
+.listetitle {
+    font-size: 35px;
+}
+
+#titleponctpersmens{
+    width: 960px;
+}
+
+/*les icones de la liste*/
+
+#edit i,
+#eye i,
+#addnote i,
+#delete i {
+    color: white;
+}
+
+#edit {
+    background: #63b4f4;
+    font-size: 12px;
+    border-radius: 50px;
+}
+
+#eye {
+    background: #aa4466;
+    font-size: 12px;
+    border-radius: 50px;
+}
+
+#deleteserv {
+    background: #757775;
+    font-size: 12px;
+    border-radius: 50px;
+    color: white;
+}
+
+#btnfichprod{
+    margin-left: -5px;
+}
+
+.formdeleteall {
+    margin-top: -32px;
+    margin-left: 127px;
+}
+
+.edit i,
+.eye i,
+.addnote i,
+.delete i {
+    color: white;
+}
+
+.edit {
+    background: #63b4f4;
+    font-size: 12px;
+    border-radius: 50px;
+}
+
+.eye {
+    background: #aa4466;
+    font-size: 12px;
+    border-radius: 50px;
+}
+
+#delete {
+    background: #e63546;
+    font-size: 12px;
+    border-radius: 50px;
+}
+
+#deleteprodach {
+    background: #e63546;
+    font-size: 12px;
+    border-radius: 50px;
+    margin-top: 32px;
+    margin-left: -72px;
+}
+
+#deleteprodconst {
+    background: #e63546;
+    font-size: 12px;
+    border-radius: 50px;
+    margin-left: -47px;
+}
+
+#deletetmpreg {
+    background: #e63546;
+    font-size: 12px;
+    border-radius: 50px;
+    margin-left: -48px;
+}
+
+#addnote {
+    background: #757775;
+    font-size: 12px;
+    border-radius: 50px;
+}
+
+.formdelete {
+    margin-top: -32px;
+    margin-left: 87px;
+}
+
+.congedelete {
+    margin-top: -32px;
+    margin-left: 43px;
+}
+
+.formdeletebur {
+    margin-top: -26px;
+    margin-left: 87px;
+}
+
+.formdeletepoineff {
+    margin-top: -32px;
+    margin-left: 40px;
+}
+
+.formdeleteintraserv {
+    margin-top: -32px;
+    margin-left: 40px;
+}
+
+.formdeleteatelier {
+    margin-top: -32px;
+    margin-left: 45px;
+}
+
+.formdeleteemp {
+    margin-top: -32px;
+    margin-left: 45px;
+}
+
+
+/*les boutons ajouter et supprimer*/
+
+#titleadd {
+    background: #32bea6;
+    color: white;
+    font-size: 17px;
+}
+
+#titleaddcons{
+    background: #32bea6;
+    color: white;
+    font-size: 17px;
+    margin-left: 95px;
+}
+
+#deleteCons{
+    background: #e63546;
+    font-size: 12px;
+    border-radius: 50px;
+    margin-top: 35px;
+}
+
+#btninter {
+    margin-left: -130px;
+}
+
+#titleaddintraservice {
+    background: #32bea6;
+    color: white;
+    font-size: 17px;
+    margin-left: -125px;
+}
+
+#titledelete {
+    background: #e63546;
+    color: white;
+    font-size: 17px;
+}
+
+#addempbtn {
+    background: #32bea6;
+    color: white;
+    font-size: 17px;
+    margin-left: -315px;
+}
+
+#addoutilbtn {
+    background: #32bea6;
+    color: white;
+    font-size: 17px;
+    margin-left: -80px;
+}
+
+#titleaddpa {
+    background: #32bea6;
+    color: white;
+    font-size: 17px;
+    float: right;
+    margin-left: 5px;
+}
+
+#titledeletepa {
+    background: #e63546;
+    color: white;
+    font-size: 17px;
+    float: right;
+    margin-top: 5px;
+}
+
+.btnreg {
+    margin-left: 242px;
+}
+
+
+/*les champs input qui se trouve dans le crud*/
+
+.champlist input,
+select {
+    width: 100%;
+    min-width: 220px;
+    height: 40px;
+    padding: 0 15px;
+    font-size: 16px;
+    background: #fff;
+    /*margin-left: 5px;*/
+    border: #070002 solid 1px;
+}
+
+.champlistpa select {
+    width: 280px;
+    min-width: 220px;
+    height: 40px;
+    padding: 0 15px;
+    font-size: 16px;
+    background: #fff;
+    /*margin-left: 5px;*/
+    border: #070002 solid 1px;
+    margin-right: 80px;
+}
+
+td {
+    padding-left: 30px;
+}
+
+
+/*formulaire qui contient les données qui vous l'entrés pour affichés la liste qui lui convient*/
+
+.formpointaeff {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+/*les deux liste qui se trouve dans pointage a effectué*/
+
+.tables {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid: 20px;
+}
+
+.tablejour {
+    width: 500px
+}
+
+.titretable {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.table tbody tr:hover {
+    background: #fff;
+}
+
+.produiachetable {
+    margin-top: 150px;
+}
+
+.tablelocMachine {
+    width: 80%;
+    margin-left: 100px;
+}
+
+.tabProduitAchet {
+    width: 60%;
+    margin-left: 220px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 9.5fr 5fr;
+    grid: 20px;
+}
+
+
+/*choix de service pour afficher liste des bureaux que lui convient*/
+
+.rowservice {
+    display: grid;
+    grid-template-columns: 9.8fr 5fr;
+    grid: 20px;
+}
+
+.rowserviceextra {
+    display: grid;
+    grid-template-columns: 9.8fr 3fr;
+    grid: 20px;
+}
+
+.champlistservice {
+    width: 150px;
+    padding-left: 50px;
+}
+
+.rowheureeff {
+    display: grid;
+    grid-template-columns: 12fr 4fr;
+    grid: 20px;
+}
+
+.rowcongeplanifie {
+    display: grid;
+    grid-template-columns: 8fr 4fr 5fr;
+    grid: 20px;
+}
+
+.rowcongenonplanifie {
+    display: grid;
+    grid-template-columns: 9fr 4fr 5fr;
+    grid: 20px;
+}
+
+.rowempmachine {
+    display: grid;
+    grid-template-columns: 7fr 5fr 4fr;
+    grid: 20px;
+}
+
+.rowlocmachine {
+    display: grid;
+    grid-template-columns: 5fr 4fr 4fr 4fr;
+    grid: 20px;
+}
+
+.rowProduit {
+    display: grid;
+    grid-template-columns: 12fr 4fr;
+    grid: 20px;
+}
+
+#selectmachine {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#btncrudemp {
+    margin-top: 20px;
+}
+
+.champlistloc {
+    width: 150px;
+    padding-left: 5px;
+}
+
+.champlistConNonPlanifier {
+    margin-left: 30px;
+}
+
+.boutonconge {
+    margin-left: 50px;
+}
+
+.formdeletejour {
+    margin-top: -32px;
+    margin-left: 45px;
+}
+
+.rowbtn {
+    display: grid;
+    grid-template-columns: 8.5fr 7fr;
+    grid: 20px;
+}
+
+#ligneselect {
+    margin-left: -30px;
+}
+
+.button-22 {
+    align-items: center;
+    /* appearance: button; */
+    /* background-color: #852747; */
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: #7c2441;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    display: flex;
+    font-size: 20px;
+    line-height: 1.15;
+    margin-left: -20px;
+    margin-top: -5px;
+    padding: 10px 21px;
+    text-align: center;
+    text-transform: none;
+    width: 218px;
+    text-decoration: none;
+}
+
+.button-22:hover {
+    color: #6b1d37;
+    text-decoration: underline;
+}
+
+.deletejour {
+    margin-left: 44px;
+    margin-top: -60px;
+}
+
+
+/**responsive*/
+
+@media(max-width:800px) {
+    .table td:nth-child(1) {
+        display: none;
+    }
+    .table th:nth-child(1) {
+        display: none;
+    }
+    .crud {
+        margin-left: 100px;
+    }
+}
+
+@media(max-width:1000px) {
+    .table td:nth-child(6) {
+        display: none;
+    }
+    .table th:nth-child(6) {
+        display: none;
+    }
+}
+
+@media(max-width:600px) {
+    .table td:nth-child(5),
+    .table th:nth-child(5) {
+        display: none;
+    }
+    .crud {
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+body
+{
+  font-family: "Inter", sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #f5f5f5;
+}
+
+.col
+{
+    max-width: 760px;
+    min-width: 560 px;
+    display: grid;
+    grid-template-columns:0.7fr 2fr;
+    grid-gap: 20px;
+  
+}
+.info_sur_outil{
+    width: 100%;
+    padding-left: calc((100% - 760px) /2);
+}
+/* les champs */
+.champ {
+    position: relative;
+    min-width: 400px;
+    max-width: 600px;
+}
+.champ input,select
+{
+    width: 85%;
+    height: 40px;
+    padding-right: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border: rgb(80, 79, 79) solid 1px;
+    border-radius: 3px;
+}
+/* les boutons */
+#titleadd {
+    background: #32bea6;
+    color: white;
+    font-size: 17px;
+}
+#titledelete {
+    background: #e63546;
+    color: white;
+    font-size: 17px;
+}
+.boutons{
+    width: 92%;
+    text-align: end;
+}
+.bi-plus{
+    color: #32bea6;
+    font-size: 25px;
+    text-align: end;
+}
+.bi-dash{
+    color: #e63546;
+    font-size: 25px;
+    text-align: end;
+}
+
+
+#addoutilmes{
+    margin-left: 160px;
+}
+
+.addoutilmestitle {
+    font-size: 35px;
+    width: 630px;
+}

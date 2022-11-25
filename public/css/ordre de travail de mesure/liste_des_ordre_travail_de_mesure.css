@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+    body
+    {
+    font-family: "Inter", sans-serif;
+    background-color: #f5f5f5;
+    }
+    .table-title{
+        width: 100%;
+    }
+    .boutons {
+        text-align: end;
+    }
+    table
+    {
+        width: 100%;
+
+    }
+    .action{
+        width: 15%;
+    }
+    #edit i,
+    #eye i,
+    #delete i,
+    #save i {
+        color: white;
+    }
+    #eye {
+        background: #852747;
+        font-size: 12px;
+        border-radius: 100%;
+    }
+    #save
+    {
+        background: #757775;
+        font-size: 12px;
+        border-radius: 100%;
+    }
+    #edit {
+        background: #63b4f4;
+        font-size: 12px;
+        border-radius: 100%;
+    }
+    #delete {
+        background: #e63546;
+        font-size: 12px;
+        border-radius: 100%;
+    }
+    #titleadd {
+        background: #32bea6;
+        color: white;
+        font-size: 17px;
+        width: 200px;
+        margin-left: -25px; 
+    }
+    #titledelete {
+        background: #e63546;
+        color: white;
+        font-size: 17px;
+        width: 180px;
+        margin-left: 180px;
+        margin-top: -65px;
+    } 
+     
+    #listeordretravailmes{
+        margin-left: 160px;
+    }
+
+    .listeordretravailmestitle {
+        font-size: 35px;
+        width: 650px;
+    }
+    
+
+

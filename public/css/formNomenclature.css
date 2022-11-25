@@ -1,0 +1,343 @@
+:root {
+    --color-white: #fff;
+    --color-light: #f5f5f5;
+    --color-black: #131316;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: var(--color-light);
+}
+
+
+/*main*/
+
+
+/*ajouter un service*/
+
+.tablesformnomenclature form {
+    width: 80%;
+    align-items: center;
+    padding: 0 20px 20px 20px;
+    z-index: 1;
+}
+
+.ajout_nomen {
+    min-height: 500px;
+    background: var( --color-light);
+    padding: 20px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    margin-top: 50px;
+    margin-left: 220px;
+    width: 1000px;
+    max-height: 100%;
+}
+
+.titrenomenclature {
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+.champserv2 {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.champserv2 input,
+select {
+    width: 100%;
+    height: 40px;
+    padding: 0 15px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background: var(--color-white);
+    border: #070002 solid 1px;
+}
+
+.champserv2 i {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+}
+
+#nom_nomenclature {
+    width: 150px;
+}
+
+#champ_Nomenclature {
+    margin-left: -70px;
+}
+
+#champ_quantite_nom,
+#champ_Nomenclature {
+    width: 338px;
+}
+
+#obligatoire {
+    color: #a81625;
+    font-size: 16px;
+}
+
+#nom_prod {
+    width: 130px;
+}
+
+#champ_quantite,
+#champ_arrondi,
+#champ_unite {
+    width: 103px;
+    margin-left: -10px;
+}
+
+#champ_nom_prod {
+    margin-left: -20px;
+}
+
+#quantite,
+#arrondi,
+#unite {
+    margin-left: -20px;
+}
+
+#unite {
+    width: 55px;
+}
+
+.formtxt {
+    font-size: 16px;
+}
+
+.txtserv {
+    width: 200px;
+}
+
+.ajoutservice h2 {
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: 28px;
+}
+
+.ajoutmission h2 {
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: 28px;
+}
+
+#emp {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.ajoutcomposant {
+    margin-top: 40px;
+    color: #852747;
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.ajout_prod_const {
+    color: #570621;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.formNomenclature {
+    margin-top: 60px;
+    padding-top: 50px;
+}
+
+.tableprod_achet {
+    margin-top: 20px;
+}
+
+.tableprod_const {
+    margin-top: 20px;
+}
+
+.ajouter_prod_achet,
+.ajouter_prod_const {
+    color: black;
+    font-size: 16px;
+    padding-right: 10px;
+    color: #7c2441;
+    text-decoration: none;
+}
+
+.supprimer_prod_achet,
+.supprimer_prod_const {
+    color: black;
+    font-size: 16px;
+    color: #7c2441;
+    text-decoration: none;
+}
+
+.supprimer_prod_const:hover,
+.supprimer_prod_achet:hover,
+.ajouter_prod_const:hover,
+.ajouter_prod_achet:hover {
+    color: #aa5c76;
+}
+
+.add_delete_achet,
+.add_delete_const {
+    margin-left: 830px;
+}
+
+
+/**style de boutons**/
+
+.buttonserv {
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    text-decoration: none;
+}
+
+.button-82-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: hsl(0deg 0% 0% / 0.25);
+    will-change: transform;
+    transform: translateY(2px);
+    transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+
+.button-82-edgec {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient( to left, #095f51(340deg 100% 16%) 0%, #32bea6(340deg 100% 32%) 8%, #32bea6(340deg 100% 32%) 92%, #095f51(340deg 100% 16%) 100%);
+}
+
+.button-82-edgea {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient( to left, #a81625(340deg 100% 16%) 0%, #ed5564(340deg 100% 32%) 8%, #ed5564(340deg 100% 32%) 92%, #a81625(340deg 100% 16%) 100%);
+}
+
+.button-82-frontc {
+    display: block;
+    position: relative;
+    padding: 12px 27px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background: #32bea6;
+    will-change: transform;
+    transform: translateY(-4px);
+    transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+
+.button-82-fronta {
+    display: block;
+    position: relative;
+    padding: 12px 27px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background: #ed5564;
+    will-change: transform;
+    transform: translateY(-4px);
+    transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+
+.btnservbur {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+    .button-82-front {
+        font-size: 1.25rem;
+        padding: 12px 42px;
+    }
+}
+
+.button-82-pushable:hover {
+    filter: brightness(110%);
+}
+
+.button-82-pushable:hover .button-82-front {
+    transform: translateY(-6px);
+    transition: transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+}
+
+.button-82-pushable:hover .button-82-shadow {
+    transform: translateY(4px);
+    transition: transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+}
+
+.button-82-pushable:focus:not(:focus-visible) {
+    outline: none;
+}
+
+.buttonbureau {
+    align-items: center;
+    box-sizing: border-box;
+    color: #7c2441;
+    padding: 20px 21px;
+    text-decoration: none;
+}
+
+.buttonbureau:hover {
+    color: #612e3f;
+}
+
+.titrebureau {
+    margin-left: 200px;
+}
+
+#btncserv {
+    margin-left: 700px;
+    margin-top: 50px;
+}
+
+#btnaserv {
+    margin-left: 850px;
+    width: 140px;
+    margin-top: -50px;
+}

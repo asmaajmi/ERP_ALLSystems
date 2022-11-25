@@ -1,0 +1,131 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Inter", sans-serif;
+    background-color: rgb(243, 241, 241);
+ 
+}
+.module{
+    margin-top: 120px;
+    /* border: #555 solid 1px; */
+    width: 100%;
+}
+.line{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap: 50px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 90%;
+    
+}
+.cards{
+
+    width: 400px;
+    height: 90px;
+    background-color: white;
+    box-shadow: 4px 0 8px rgba(94, 92, 92, 0.897);
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    grid-gap: 0;
+  
+}
+.icon{
+   
+    text-align: center;
+    line-height:90px;
+    font-size: 45px;
+    color: white;
+   
+}
+.parametre{
+    background-color: #D885A3;
+}
+.RH{
+    background-color: #008e89;
+}
+.fabrication{
+    background-color: #886f6f;
+}
+.achat{
+    background-color: #3a0680;
+}
+.stock{
+    background-color: #65c18c;
+}
+.mrp{
+    background-color: #8d85d8;
+}
+.qualite{
+    background-color: #d67d3e;
+}
+.vente{
+    background-color: #bb6464
+}
+.maintenance{
+    background-color: #c0a080;
+}
+.titre_star{
+    
+  
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: #000;
+}
+/*styling star rating*/
+.rating{
+	border: none;
+	float: left;
+}
+
+.rating > input{
+	display: none;
+}
+
+.rating > label:before{
+	content: '\f005';
+	font-family: FontAwesome;
+	margin: 5px;
+	font-size: 1.5rem;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.rating > .half:before{
+	content: '\f089';
+	position: absolute;
+	cursor: pointer;
+}
+
+
+.rating > label{
+	color: #ddd;
+	float: right;
+	cursor: pointer;
+}
+
+.rating > input:checked ~ label,
+.rating:not(:checked) > label:hover, 
+.rating:not(:checked) > label:hover ~ label{
+	color: #ffcc00;
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label,
+.rating > input:checked ~ label:hover ~ label{
+	color: #ffcc00;
+}

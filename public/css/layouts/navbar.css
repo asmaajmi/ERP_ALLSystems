@@ -1,0 +1,46 @@
+
+.navbar{
+    background: #852747;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar-brand
+{
+    width: 260px;
+    text-align: center;
+}
+li 
+{
+  list-style-type: none;
+} 
+.offcanvas {
+    background: #852747;;
+}
+a{
+    color: #fff; 
+}
+a:hover
+{
+    color: #fff;
+    text-decoration: none;
+    
+}
+.main
+{
+   margin-top: 100px;  
+}
+@media(max-width: 1215px)
+{
+    .navbar-brand{
+        width: auto;
+    }
+}
+
+
+
+

@@ -1,0 +1,353 @@
+:root {
+    --color-white: #fff;
+    --color-light: #f5f5f5;
+    --color-black: #131316;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: var(--color-light);
+}
+
+
+/*main*/
+
+
+/*ajouter heures supplementaires a eff*/
+
+.tablesformoutilfabrication form {
+    width: 80%;
+    align-items: center;
+    padding: 0 20px 20px 20px;
+    z-index: 1;
+}
+
+
+
+.ajoutoutilfab {
+    min-height: 300px;
+    background: var( --color-light);
+    padding: 20px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    margin-top: 95px;
+    margin-left: 290px;
+    width: 870px;
+}
+
+
+/*titre de la formulaire*/
+
+.titreoutilfab {
+    font-size: 35px;
+    margin-left: 25px;
+}
+
+.outilinfo {
+    color: #852747;
+    font-size: 22px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+/*les input*/
+
+.champoutilfab {
+    position: relative;
+    min-width: 370px;
+    max-width: 80%;
+}
+
+.champoutilfab input,
+select {
+    width: 80%;
+    height: 40px;
+    padding: 0 15px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background: var(--color-white);
+    border: #070002 solid 1px;
+    margin-bottom: 20px;
+}
+
+
+/*les icones qui sont dans les champs input*/
+
+.champoutilfab i {
+    position: absolute;
+    right: 90px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.formtxt {
+    font-size: 16px;
+}
+
+
+/*le titre de la formulaire*/
+
+#outil {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+/*reglages de la positions de les inputs*/
+
+
+
+.txtoutilfab {
+    width: 200px;
+}
+
+.formoutilfab {
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.lignemachine{
+margin-top: 15px;
+}
+.lignemachinetit{
+    margin-top: 65px;
+}
+.sel{
+    width: 50%;
+}
+
+#selprod{
+    margin-left: -268px;
+}
+
+#idoutil{
+    margin-left: 240px;
+}
+
+#qteprodtit{
+    margin-left: -346px;
+}
+
+#qteprod{
+    margin-left: -297px;
+    width: 93px;
+    height: 40px;
+}
+
+#uniteprodtit{
+    margin-left: -135px;
+}
+
+#uniteprod{
+    margin-left: -110px;
+    width: 93px;
+    height: 40px;
+}
+
+#qteouttit{
+margin-left: 73px;
+margin-right: -65px;
+}
+
+#qteout{
+    margin-left: 50px;
+    width: 93px;
+    height: 40px;
+}
+
+#uniteouttit{
+    margin-left: 65px;
+    margin-right: -15px;
+}
+#uniteout{
+    width: 93px;
+    height: 40px;}
+/**style des boutons**/
+.button-82-pushable {
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-82-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: hsl(0deg 0% 0% / 0.25);
+    will-change: transform;
+    transform: translateY(2px);
+    transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+
+.button-annuler-82-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    border-radius: 12px;
+    background: hsl(0deg 0% 0% / 0.25);
+    will-change: transform;
+    transform: translateY(2px);
+    transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+
+.button-82-edgec {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient( to left, #095f51(340deg 100% 16%) 0%, #32bea6(340deg 100% 32%) 8%, #32bea6(340deg 100% 32%) 92%, #095f51(340deg 100% 16%) 100%);
+}
+
+.button-82-edgea {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient( to left, #a81625(340deg 100% 16%) 0%, #ed5564(340deg 100% 32%) 8%, #ed5564(340deg 100% 32%) 92%, #a81625(340deg 100% 16%) 100%);
+}
+
+.button-82-frontc {
+    display: block;
+    position: relative;
+    padding: 12px 27px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background: #32bea6;
+    will-change: transform;
+    transform: translateY(-4px);
+    transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+
+.button-82-fronta {
+    padding: 12px 27px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background: #ed5564;
+    will-change: transform;
+    transform: translateY(-4px);
+    transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+
+#btnc {
+    margin-left: 405px;
+    margin-top: 15px;
+    margin-right: -50px;
+    width: 150px;
+}
+
+#btna {
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+.btnconfannuler {
+    display: inline-flex;
+    margin-left: 137px;
+}
+
+@media (min-width: 768px) {
+    .button-82-front {
+        font-size: 1.25rem;
+        padding: 12px 42px;
+    }
+}
+
+.button-82-pushable:hover {
+    filter: brightness(110%);
+}
+
+.button-82-pushable:hover .button-82-front {
+    transform: translateY(-6px);
+    transition: transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+}
+
+.button-82-pushable:hover .button-82-shadow {
+    transform: translateY(4px);
+    transition: transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+}
+
+.button-82-pushable:focus:not(:focus-visible) {
+    outline: none;
+}
+.btnannuler {
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 280px;
+    height: 50px;
+}
+
+.ajouter_outil {
+    color: black;
+    font-size: 16px;
+    padding-right: 10px;
+    color: #7c2441;
+    text-decoration: none;
+    width: 130px;
+}
+
+.supprimer_outil {
+    color: black;
+    font-size: 16px;
+    color: #7c2441;
+    text-decoration: none;
+    width: 160px;
+}
+
+.supprimer_outil:hover,
+.ajouter_outil:hover {
+    color: #aa5c76;
+}
+
+.add_delete {
+    margin-left: 570px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: inline-flex;
+}

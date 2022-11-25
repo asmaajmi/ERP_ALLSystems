@@ -1,0 +1,65 @@
+.switch-field {
+    display: flex;
+    overflow: hidden;
+    margin-left: 30px;
+}
+
+.switch-field input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 2px;
+    border: 0;
+    overflow: hidden;
+}
+
+.switch-field label {
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    line-height: 1;
+    text-align: center;
+    padding: 8px 16px;
+    margin-right: -1px;
+    border: 1px solid black;
+    /*box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);*/
+    transition: all 0.1s ease-in-out;
+}
+
+.switch-field label:hover {
+    cursor: pointer;
+}
+
+.switch-field #radio-one:checked+label {
+    background-color: #32bea6;
+    box-shadow: none;
+    /*color: #32bea6;*/
+    color: white;
+}
+
+.switch-field #radio-two:checked+label {
+    background-color: #ed5564;
+    box-shadow: none;
+    /*color: #ed5564;*/
+    color: white;
+}
+
+.switch-field label:first-of-type {
+    border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+    border-radius: 0 4px 4px 0;
+}
+
+#btncheureaeff {
+    width: 170px;
+}
+
+.btnheuresuppedit {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    width: 330px;
+    margin-top: 70px;
+    margin-left: 620px;
+}

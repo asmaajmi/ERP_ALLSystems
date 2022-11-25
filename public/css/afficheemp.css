@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.model-container {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    min-height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    transform: scale(0);
+}
+
+.model-container .model {
+    height: 550px;
+    max-width: 900px;
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+}
+
+.model-container .model .image {
+    width: 120px;
+    height: 150px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.model-container .model .image input {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    background: #f5f5f5;
+}
+
+.model-container .model .info {
+    display: grid;
+    grid-template-columns: 0.6fr 1fr 2fr;
+    grid-gap: 10px;
+}
+
+.model-container .model .info .nom {
+    width: 300px;
+    height: 150px;
+}
+
+.model-container .model .info .service {
+    width: 450px;
+    height: 150px;
+}
+
+.model-container .model .info .nom {
+    display: grid;
+    grid-template-columns: 0.3fr 0.05fr 1fr;
+    grid-gap: 2px;
+    text-align: left;
+    padding-left: 20px;
+    line-height: 35px;
+    padding-top: 20px;
+}
+
+.societe {
+    color: #002855;
+    font-size: 28px;
+}
+
+.societe h1 {
+    text-shadow: 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.info1 h2,
+.info3 h2 {
+    color: #33415c;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.info2 h2 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.model-container .model .info .service {
+    display: grid;
+    grid-template-columns: 1fr 0.05fr 1fr;
+    grid-gap: 2px;
+    text-align: left;
+    padding-left: 20px;
+    line-height: 35px;
+    padding-top: 20px;
+}
+
+.model-container .model .infosup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.model-container .model .infosup .information {
+    display: grid;
+    grid-template-columns: 1fr 0.02fr 1.5fr;
+    grid-gap: 2px;
+    text-align: left;
+    padding-left: 20px;
+    line-height: 35px;
+    padding-top: 20px;
+}
+
+.model-container .model .infosup .information .info2 h2,
+.model-container .model .infosup .information .info1 h2,
+.model-container .model .infosup .information .info3 h2 {
+    font-size: 15px;
+}
+
+.model-container .model .sp {
+    width: 70px;
+    height: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2px;
+    position: absolute;
+    top: 500px;
+    right: 20px;
+}
+
+.model-container .model .sp .fa-save,
+.model-container .model .sp .fa-print {
+    position: relative;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #333;
+    padding-left: 20px;
+}
+
+.model-container .model .fa-times {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+}
+
+@media(max-width:1200px) {
+    .model-container .model {
+        height: 500px;
+        width: 800px;
+        padding: 20px;
+        margin-top: 70px;
+        margin-left: 70px;
+    }
+    .model-container .model .image {
+        width: 120px;
+        height: 140px;
+    }
+    .model-container .model .image input {
+        width: 100%;
+        height: 100%;
+        top: -10px;
+    }
+    .model-container .model .info {
+        display: grid;
+        grid-template-columns: 0.6fr 0.5fr 0.5fr;
+        grid-gap: 5px;
+    }
+    .model-container .model .info .nom {
+        width: 250px;
+        height: 120px;
+    }
+    .model-container .model .info .service {
+        width: 400px;
+        height: 120px;
+    }
+    .model-container .model .info .nom {
+        line-height: 30px;
+    }
+    .societe {
+        font-size: 25px;
+    }
+    .info1 h2,
+    .info3 h2 {
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .info2 h2 {
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .model-container .model .info .service {
+        line-height: 30px;
+    }
+    .model-container .model .infosup .information {
+        grid-template-columns: 0.9fr 0.02fr 1.7fr;
+        line-height: 25px;
+        padding-top: 5px;
+        grid-gap: 1px;
+    }
+    .model-container .model .infosup .information .info2 {
+        width: 250px;
+    }
+    .model-container .model .infosup .information .info1 {
+        width: 130px;
+    }
+    .model-container .model .infosup .information .info2 h2,
+    .model-container .model .infosup .information .info1 h2,
+    .model-container .model .infosup .information .info3 h2 {
+        font-size: 12px;
+    }
+    .model-container .model .sp {
+        top: 440px;
+    }
+}
+
+@media(max-width:900px) {
+    .model-container .model {
+        height: 500px;
+        width: 750px;
+    }
+    .model-container .model .image {
+        margin-top: -50px;
+    }
+    .model-container .model .info .nom {
+        line-height: 25px;
+    }
+    .societe {
+        font-size: 20px;
+    }
+    .model-container .model .info .service {
+        line-height: 25px;
+    }
+    .model-container .model .infosup {
+        grid-template-columns: 0.5fr 1fr;
+        grid-gap: 2px;
+    }
+    .model-container .model .infosup .information {
+        margin-left: -20px;
+    }
+}
+
+@media(max-width:850px) {
+    .main1 .model-container {
+        display: none;
+    }
+}
